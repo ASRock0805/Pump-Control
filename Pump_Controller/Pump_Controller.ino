@@ -138,12 +138,12 @@ void inputPrompt(int percent) {
 }
 
 void flushReceive(void) { // Flush receive buffer
-  while(Serial.available()) {
+  while (Serial.available()) {
     Serial.read();
     Serial.flush();
   }
 
-  while(Wire.available()) { // Wiring specific 
+  while (Wire.available()) { // Wiring specific 
     Wire.read();
   }
 
