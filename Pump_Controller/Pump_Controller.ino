@@ -12,7 +12,7 @@
   Created 30 Nov. 2020
   by Yi-Xuan Wang
 
-  References:
+  Reference:
   http://kamoer.com/Products/showproduct.php?id=234
 */
 
